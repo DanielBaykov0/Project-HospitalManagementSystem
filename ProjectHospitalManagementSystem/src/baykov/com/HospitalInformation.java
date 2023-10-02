@@ -21,7 +21,7 @@ public class HospitalInformation implements ActionListener {
 
         JLabel label = new JLabel();
         label.setBounds(100,20,600,200);
-        label.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/hospitalmanagement.jpg"));
+        label.setIcon(new ImageIcon("images/hospitalmanagement.jpg"));
 
         JTextArea textArea = new JTextArea();
         textArea.setBounds(20,250,760,250);
@@ -37,7 +37,7 @@ public class HospitalInformation implements ActionListener {
                 "\n\tIt helps eliminate the need to get these details on every visit.");
 
         closeButton.setBounds(600, 520, 120, 30);
-        closeButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/closeicon.png"));
+        closeButton.setIcon(new ImageIcon("images/closeicon.png"));
         closeButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         closeButton.setFocusable(false);
         closeButton.addActionListener(this);

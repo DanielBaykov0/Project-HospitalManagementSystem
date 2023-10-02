@@ -47,7 +47,7 @@ public class UpdatePatient implements ActionListener {
         patientIdText.setFont(new Font("Ink Free", Font.PLAIN, 15));
 
         searchButton.setBounds(280, 40, 120,25);
-        searchButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/searchicon.png"));
+        searchButton.setIcon(new ImageIcon("images/searchicon.png"));
         searchButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         searchButton.setFocusable(false);
         searchButton.addActionListener(this);
@@ -142,13 +142,13 @@ public class UpdatePatient implements ActionListener {
         wardTypeBox.setFont(new Font("Ink Free", Font.BOLD, 15));
 
         closeButton.setBounds(600, 480, 120, 30);
-        closeButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/closeicon.png"));
+        closeButton.setIcon(new ImageIcon("images/closeicon.png"));
         closeButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         closeButton.setFocusable(false);
         closeButton.addActionListener(this);
 
         updateButton.setBounds(100, 480, 120, 30);
-        updateButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/saveicon.png"));
+        updateButton.setIcon(new ImageIcon("images/saveicon.png"));
         updateButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         updateButton.setFocusable(false);
         updateButton.addActionListener(this);

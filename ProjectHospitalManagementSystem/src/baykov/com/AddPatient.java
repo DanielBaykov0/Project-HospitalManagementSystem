@@ -81,13 +81,13 @@ public class AddPatient implements ActionListener {
         majorDiseaseText.setFont(new Font("Ink Free", Font.PLAIN, 15));
 
         closeButton.setBounds(600, 450, 120, 30);
-        closeButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/closeicon.png"));
+        closeButton.setIcon(new ImageIcon("images/closeicon.png"));
         closeButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         closeButton.setFocusable(false);
         closeButton.addActionListener(this);
 
         saveButton.setBounds(100, 450, 120, 30);
-        saveButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/saveicon.png"));
+        saveButton.setIcon(new ImageIcon("images/saveicon.png"));
         saveButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         saveButton.setFocusable(false);
         saveButton.addActionListener(this);

@@ -23,7 +23,7 @@ public class LogIn implements ActionListener {
         frame.setResizable(false);
 
         JLabel label = new JLabel();
-        label.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/login.jpg"));
+        label.setIcon(new ImageIcon("images/login.jpg"));
         label.setBounds(40, 60, 200, 200);
 
         JLabel username = new JLabel("Username");
@@ -41,13 +41,13 @@ public class LogIn implements ActionListener {
         passwordField.setFont(new Font("Ink Free", Font.PLAIN, 15));
 
         closeButton.setBounds(600, 200, 120, 30);
-        closeButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/closeicon.png"));
+        closeButton.setIcon(new ImageIcon("images/closeicon.png"));
         closeButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         closeButton.setFocusable(false);
         closeButton.addActionListener(this);
 
         logInButton.setBounds(420, 200, 120, 30);
-        logInButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/loginicon.png"));
+        logInButton.setIcon(new ImageIcon("images/loginicon.png"));
         logInButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         logInButton.setFocusable(false);
         logInButton.addActionListener(this);

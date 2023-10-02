@@ -24,7 +24,7 @@ public class MainFrame implements ActionListener {
         frame.setResizable(false);
 
         JLabel image = new JLabel();
-        image.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/hospital.jpg"));
+        image.setIcon(new ImageIcon("images/hospital.jpg"));
         image.setBounds(0,0,1152,685);
 
         newPatientButton.setBounds(40, 60, 240, 60);

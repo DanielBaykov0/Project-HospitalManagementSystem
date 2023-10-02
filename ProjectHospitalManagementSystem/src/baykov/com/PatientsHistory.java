@@ -37,13 +37,13 @@ public class PatientsHistory implements ActionListener {
         table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
 
         closeButton.setBounds(600, 480, 120, 30);
-        closeButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/closeicon.png"));
+        closeButton.setIcon(new ImageIcon("images/closeicon.png"));
         closeButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         closeButton.setFocusable(false);
         closeButton.addActionListener(this);
 
         deleteButton.setBounds(100, 480, 120, 30);
-        deleteButton.setIcon(new ImageIcon("/home/baykov/IdeaProjects/ProjectHospitalManagementSystem/images/deleteicon.png"));
+        deleteButton.setIcon(new ImageIcon("images/deleteicon.png"));
         deleteButton.setFont(new Font("Ink Free", Font.BOLD, 15));
         deleteButton.setFocusable(false);
         deleteButton.addActionListener(this);
